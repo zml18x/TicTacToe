@@ -1,8 +1,9 @@
 import { Cell } from "./Cell";
+import { RenderImage } from "./RenderImage";
 
 export const Board = ({cells,onClick}) => {
     const renderCell = (i) => {
-        return <Cell value={cells[i]} onClick={() => onClick(i)} />;
+        return <Cell key={i} value={RenderImage(cells[i])} onClick={() => onClick(i)} />;
     };
 
     return (

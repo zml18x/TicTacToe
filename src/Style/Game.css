@@ -1,0 +1,28 @@
+.game-info{
+    font-family: ExistenceLight;
+    font-size: 30px;
+    color: #c9c9c9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.restart-btn{
+    width: 490px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #474747;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: ExistenceLight;
+    font-size: 20px;
+    color: #c9c9c9;
+}
+
+.restart-btn:hover {
+    background-color: #333333;
+}

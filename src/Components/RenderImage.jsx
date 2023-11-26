@@ -1,7 +1,8 @@
 import React from 'react';
-import XImage from '../Img/X.png';
-import OImage from '../Img/O.png';
+import XImage from '../Assets/Img/X.png';
+import OImage from '../Assets/Img/O.png';
+import '../Style/RenderImage.css';
 
 export const RenderImage = (value) => {
-    return value === 'X' ? <img src={XImage} alt='X' /> : (value === 'O' ? <img src={OImage} alt='O' /> : null);
+    return value === 'X' ? <img src={XImage} alt='X' className='xoImage' /> : (value === 'O' ? <img src={OImage} alt='O' className='xoImage'/> : null);
 };

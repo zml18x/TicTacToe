@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: 'ExistenceLight'; 
+    src: url('../Assets/Fonts/Existence-Light.otf'); 
+}; 
+
 .ticTacToe{
     width: 200;
     height: 100vh;
@@ -5,5 +10,8 @@
 }
 
 h1{
+    color: #c9c9c9;
     text-align: center;
+    font-family: ExistenceLight;
+    font-size: 90px;
 }

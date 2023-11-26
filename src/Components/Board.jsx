@@ -1,3 +1,4 @@
+import '../Style/Board.css'
 import { Cell } from "./Cell";
 import { RenderImage } from "./RenderImage";
 
